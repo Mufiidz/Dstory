@@ -1,0 +1,9 @@
+global_options:
+  dart_mappable_builder:
+    options:
+      ignoreNull: true
+      renameMethods:
+        fromJson: fromJsonString
+        toJson: toJsonString
+        fromMap: fromJson
+        toMap: toJson
